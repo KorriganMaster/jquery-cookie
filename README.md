@@ -5,7 +5,7 @@ This plugin requires jQuery 1.9.1 and provides an easy way to manage your cookie
 
 ## Getting started
 
-First you have to include [jQuery](http://jquery.com/) and the plugin on your page.
+First you have to include [jQuery](http://jquery.com/) and the plugin in your page.
 
 ```html
 <script type="text/javascript">jquery.js</script>
@@ -13,7 +13,7 @@ First you have to include [jQuery](http://jquery.com/) and the plugin on your pa
 ```
 ## Usage
 
-Create a cookie with default options (by default path is set to "/" and expires to 1 year) :
+Create a cookie with default options (by default "path" is set to "/" and "expires" to 1 year) :
 
 ```javascript
 $.cookie({name: "my_cookie", value: "my_value"});
