@@ -18,7 +18,7 @@ Create a cookie with default options (by default "path" is set to "/" and "expir
 ```javascript
 $.cookie({name: "my_cookie", value: "my_value"});
 ```
-Create a cookie with a custom path and expiration (days is the number of days your cookie will be available) :
+Create a cookie with a custom path and expiration date (days is the number of days your cookie will be available) :
 
 ```javascript
 $.cookie({name: "my_cookie", value: "my_value", days: 7, path: "/my_path"});
