@@ -24,7 +24,7 @@ Create a cookie with a custom path and expiration date (days is the number of da
 $.cookie({name: "my_cookie", value: "my_value", days: 7, path: "/my_path"});
 ```
 
-Read a cookie value. This method returns null if the cookie doesn't exist :
+Read a cookie value (this method returns null if the cookie doesn't exist) :
 
 ```javascript
 $.cookie("read", "cookie_name");
