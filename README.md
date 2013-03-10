@@ -18,13 +18,13 @@ Create a cookie with default options (by default path is set to "/" and expires 
 ```javascript
 $.cookie({name: "my_cookie", value: "my_value"});
 ```
-Create a cookie with a custom path and expiration (days is the number of days your cookie will be avilable) :
+Create a cookie with a custom path and expiration (days is the number of days your cookie will be available) :
 
 ```javascript
 $.cookie({name: "my_cookie", value: "my_value", days: 7, path: "/my_path"});
 ```
 
-Read a cookie value. This method return null if the cookie doesn't exists :
+Read a cookie value. This method returns null if the cookie doesn't exists :
 
 ```javascript
 $.cookie("read", "cookie_name");
