@@ -23,13 +23,12 @@
 					$.extend(settings, options);
 					expire = today.toCookieExpire(settings.days);
 					cookie_string = settings.name + '=' + settings.value + "; expires=" + expire + "; path=" + settings.path;
-					console.log(cookie_string);
 					document.cookie = cookie_string;
 				} else {
-					console.log("A cookie must have a name !");
+					$.error("A cookie must have a name !");
 				}
 			} else {
-				console.log("A cookie must have a name !");
+				$.error("A cookie must have a name !");
 			}
 		},
 		read: function(name) {
@@ -41,7 +40,7 @@
 				while (c.charAt(0)==' ') c = c.substring(1,c.length);
 				if (c.indexOf(nameEQ) == 0) value = c.substring(nameEQ.length,c.length);
 			}
-			if(value == null) console.log("Cookie '" + name + "' doesn't exists !");
+			if(value == null) $.error("Cookie '" + name + "' doesn't exists !");
 			return value;
 		},
 		delete: function(cookie) {
