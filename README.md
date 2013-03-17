@@ -1,4 +1,4 @@
-jQuery cookies manager [![Build Status](https://travis-ci.org/KorriganMaster/jquery-cookie.png)](https://travis-ci.org/KorriganMaster/jquery-cookie)
+jQuery cookies manager
 ======================
 
 This plugin requires jQuery 1.9.1 and provides an easy way to manage your cookies.
